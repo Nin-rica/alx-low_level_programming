@@ -5,7 +5,7 @@
 /**
  *  * main - Print a random +/- number
  *   * Return: 0
- *    */
+ */
 
 int main(void)
 {
