@@ -5,6 +5,8 @@
  */
 void print_times_table(int n)
 {
+// code to print times table
+}
 	int i, j, k;
 
 	if (n >= 0 && n <= 15)
