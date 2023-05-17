@@ -1,10 +1,9 @@
 #include "main.h"
-#include "main.h"
 #include <stdlib.h>
 
 int word_len(char *str);
 int count_words(char *str);
-char ***strtow(char *str);
+char **strtow(char *str);
 
 /**
   *word_len - locates index mark at end of first word within string.
@@ -59,7 +58,7 @@ int count_words(char *str)
 
 char **strtow(char *str)
 {
-	char ***strings;
+	char **strings;
 	int index = 0, words, w, letters, l;
 
 	if (str == NULL || str[0] == '\0')
